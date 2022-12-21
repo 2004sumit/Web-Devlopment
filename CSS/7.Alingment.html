@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alingment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 1000px;
+            border: 2px solid red;
+        }
+
+        .item{
+            border: 2px solid gold;
+            margin: 12px 3px;
+            background-color: aqua;
+        }
+
+        #fruits{
+            float: left;
+            width: 48%;
+            align-content: center;
+            text-align: center;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+            text-align: center;
+        }
+        #stentionary{
+            float: left;
+            width: 100%;
+            clear: both;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h2>The Grocerry website</h2>
+            <p id="fruitpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sequi placeat dolorem nulla iste asperiores itaque mollitia, iusto nihil ex. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, quidem.</p>
+        </div>
+        <div id="computer" class="item">
+            <h2>The Grocerry website</h2>
+            <p id="computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sequi placeat dolorem nulla iste asperiores itaque mollitia, iusto nihil ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magnam provident repudiandae.</p>
+        </div>
+        <div id="stentionary" class="item">
+            <h2>The Grocerry website</h2>
+            <p id="stentionarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sequi placeat dolorem nulla iste asperiores itaque mollitia, iusto nihil ex.</p>
+        </div>
+    </div>
+</body>
+</html>

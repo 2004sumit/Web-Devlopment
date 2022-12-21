@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Fitness </title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* css reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/fitness1.jpg');
+    background-size: 100%;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 80px;
+    
+}
+.left div{
+    text-align: center;
+   font-family: serif;
+    font-size: 15px;
+    line-height: 5px;
+}
+.mid{
+    display: block;
+    width: 44%;
+    margin: 20px auto;
+    /* border: 2px solid rgb(43, 230, 112); */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(198, 229, 21); */
+}
+
+.navbar{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 34px 25px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: rgb(136, 246, 88);
+}
+.btn{
+    margin: 0px 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(54, 99, 117);
+}
+
+.container{
+    border: 2px solid rgb(211, 214, 211);
+    margin: 92px 54px;
+    padding: 22px 13px;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.formgroup input{
+       background-color: aqua;
+       text-align: center;
+       display: block;
+       width: 200px;
+       padding: 10px;
+       border: 2px solid black;
+       margin: 12px auto;
+       font-size: 15px;
+       border-radius: 15px;
+       font-family: 'Times New Roman', Times, serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+      display: block;
+      width: 46%;
+      margin: auto;
+
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+  <img src="img/logo1.png" alt="">
+  <div>Sumit Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+     <div class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact us</a></li>
+     </div>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+<button class="btn">Call Us</button>
+<button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym in Durgapur Now</h1>
+        <form action="noAction.php">
+            <div class="formgroup">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="email" placeholder="Ener Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="number" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter Your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

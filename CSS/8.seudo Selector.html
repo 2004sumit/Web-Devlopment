@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudo Selectors</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: aquamarine;
+            padding: 34px;
+            margin: 36px auto;
+            width: 500px;
+        }
+        .btn{
+            background-color: chartreuse;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+            background-color: aliceblue;
+        }
+        a:visited{
+           background-color: brown;
+        }
+        a:active{
+            background-color: chocolate;
+        }
+        .btn:hover{
+            background-color: rgb(24, 188, 49);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h2>This is heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi excepturi non est id, voluptas eaque iste provident quae ipsa vel cupiditate suscipit explicabo. Illo iure rerum iste, sequi culpa minus libero odio. Culpa?</p>
+        <a href="https://google.com" class="btn">Read More..</a>
+        <button class="btn">contact Us</button>
+    </div>
+</body>
+</html>
