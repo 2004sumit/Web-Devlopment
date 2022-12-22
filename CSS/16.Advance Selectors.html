@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selectors</title>
+    <style>
+    h1{
+        background-color: aqua;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+    /* div p{
+        color: rgb(214, 29, 29);
+    } */
+    div > p{
+        color: rgb(212, 228, 63);
+    }
+    div + p{
+        color: rgb(48, 225, 60);
+    }
+    
+
+    </style>
+</head>
+<body>
+    <h1>This is heaing</h1>
+    <div class="container">
+        <div class="row">
+            <p>This is paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>this is outer paragraph</p>
+</body>
+</html>
